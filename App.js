@@ -17,7 +17,7 @@ const App: () => React$Node = () => {
         style={{flex: 1}}
         initialPage={0}
         keyboardDismissMode="on-drag"
-        scrollEnabled={false}>
+        scrollEnabled={true}>
         <View key="1" style={{backgroundColor: 'red'}}>
           <Text>First page</Text>
         </View>
